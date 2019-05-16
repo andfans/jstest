@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScriptTest</title>
+    <script src="js/myScript.js"></script>
+    <script>
+      var a = 4;
+      var b = 5;
+      console.log(a + b);
+    </script>
+  </head>
+  <body>
+    <h1>我的web页面</h1>
+    <p id="demo">我的第一个js函数</p>
+    <button type="button" onclick="myFunction()">点击这里2133</button>
+    <script>
+      // var length;
+      // length = 6;
+      // document.getElementById("demo").innerHTML = "woeir界";
+      // var foo = "it's a varaiable";
+      // console.log(foo);
+      // var carname = "Volvo";
+      // var carname;
+      // console.log(carname);
+      // var y = 123e-5;
+      // console.log(y);
+
+      // var cars = new Array();
+      // cars[0] = "baom";
+      // cars[1] = "baojun";
+      // cars[2] = "guangqi";
+      // for (i = 0; i < cars.length; i++) {
+      //   document.write(cars[i] + "<br>");
+      // }
+      // var person = {
+      //   firstname: "Johon",
+      //   lastname: "Doe",
+      //   id: 5566
+      // };
+      // console.log(person.firstname);
+      // console.log(person["lastname"]);
+      // var flower = "iris";
+      // console.log(flower);
+      // flower = null;
+      // console.log(flower);
+      // var zhu = new String();
+      // zhu = 123;
+      // console.log(zhu);
+
+      var person = {
+        firstname: "john",
+        lastname: "doe",
+        age: 50,
+        eyecolor: "blue",
+        fullname: function() {
+          return this.firstname + " " + this.lastname;
+        }
+      };
+      console.log(person.firstname + " now is " + person.age + " years old.");
+      console.log(person.fullname);
+    </script>
+  </body>
+</html>

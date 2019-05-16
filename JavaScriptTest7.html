@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScriptTest</title>
+    <script>
+      var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      var sln = txt.length;
+      console.log(sln);
+      var x = "John";
+      var y = new String("John");
+      console.log(typeof x);
+      console.log(typeof y);
+      console.log(x == y);
+      var txt1 = "what a very nice ";
+      var txt2 = "day!";
+      console.log(txt1 + txt2);
+      console.clear();
+      var d = new Date().getDay();
+      switch (d) {
+        case 0:
+          x = "今天是星期日";
+          break;
+        case 1:
+          x = "今天是星期一";
+          break;
+        case 2:
+          x = "今天是星期二";
+          break;
+        case 3:
+          x = "今天是星期三";
+          break;
+        case 4:
+          x = "今天是星期四";
+          break;
+        case 5:
+          x = "今天是星期五";
+          break;
+        case 6:
+          x = "今天是星期六";
+          break;
+      }
+      console.log(x);
+      for (var i = 0; i < 10; i++) {
+        console.log("yingguo!!!");
+      }
+      var person = { fname: "Jhon", lname: "Doe", age: 25 };
+      for (x in person) {
+        console.log(x + ":" + person[x]);
+      }
+      for (var i = 0; i < 10; i++) {
+        if (i % 2 == 0) {
+          continue;
+          console.log("i:" + i);
+        }
+      }
+      var cars = ["BMW111", "Volvo222", "Saab", "Ford"];
+      list: {
+        document.write(cars[0] + "<br>");
+        document.write(cars[1] + "<br>");
+        document.write(cars[2] + "<br>");
+        break list;
+        document.write(cars[3] + "<br>");
+        document.write(cars[4] + "<br>");
+        document.write(cars[5] + "<br>");
+      }
+      console.log(typeof "john");
+      console.log(typeof 3.14);
+      console.log(typeof false);
+      console.log(typeof [1, 2, 3, 4]);
+      console.log(typeof { name: "john", age: 34 });
+      console.log(typeof undefined);
+      console.log("---------------");
+      console.log(null == undefined);
+      console.log(null === undefined);
+      var a;
+      console.log(a);
+      var emps = ["ss", "nn"];
+      emps = null;
+      console.log(emps);
+    </script>
+  </head>
+  <body></body>
+</html>

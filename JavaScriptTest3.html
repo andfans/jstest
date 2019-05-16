@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScriptTest</title>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo").value;
+        if (x == "" || isNaN(x)) {
+          alert("不是数字");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input id="demo" type="text" />
+    <button onclick="myFunction()">点击这里</button>
+  </body>
+</html>
